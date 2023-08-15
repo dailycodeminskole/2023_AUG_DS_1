@@ -1,0 +1,87 @@
+#################################################
+#  09.08.2023 8.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 Strings  in Python
+#################################################
+
+
+# revision
+
+# print("Line1
+# line2
+# line3
+# line4")
+
+
+print('''Line1
+line2
+line3
+line4''')
+
+
+
+user1 = "Rakesh"
+user2 = "Rakesh"
+
+print(id(user1))
+print(id(user2))
+
+# HW
+a = 'One'
+print(type(a))
+
+b = " "
+print(type(b)) #str
+
+c = "101"
+print(type(c))
+
+p = 100
+print(type(p))
+
+
+p = 101.4
+print(type(p)) #float
+
+d = '3.14'
+print(type(d))
+
+
+# STRINGS
+
+
+skill = "PYTHON"
+print(skill)
+
+type(skill)
+print(type(skill))
+
+
+
+# indexing	0	1	2	3	4	5
+# STRING 	  P	Y	T	H	O	N
+skill = "PYTHON"
+
+print(skill[0])
+print(skill[1])
+print(skill[2])
+print(skill[5])
+print(skill[4])
+
+#        0123456789...
+email = "MINSKOLE@GMAIL.COM"
+
+print(email[8]) # @
+print(email[0]) # M
+print(email[5]) # O
+
+
+
+# HW
+
+num = "+91-123456789"
+# +
+# -
+
+print(num[0])
