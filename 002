@@ -1,0 +1,83 @@
+#################################################
+#  07.08.2023 8.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 Variables in Python
+#################################################
+
+print("The current version of Python is 3")
+print('100+100')# as it is 
+print(100+100)
+print(100-100)
+print(100*100)
+print(100/100)
+print(100%100)
+
+# Variables in Python
+# Dynamically typed language
+
+x = 100
+print(x)
+x = "Ramesh"
+print(x)
+x = 12.5
+print(x)
+x = 3-2j
+print(x)
+x = 'The current version of Python is 3'
+print(x)
+
+y = 200
+print(y)
+y = "Suresh"
+print(y)
+
+# Allowed Variables name in Python
+i_am = 100
+iam = 100
+_i_am = 100
+_iam_ = 100
+
+# variable names not Allowed
+
+# @we = 100
+# &we = 100
+# 1we = 100
+# 123 = 100
+# we#12@ = 100
+
+
+# allowed but not recommended
+# class = 100
+# def = 100
+# int = 100
+# __one__ = 100
+# __dict__ = 100
+# __arti__ = 100
+# __akash__ = "SUNDAY"
+# __akash__ = "MONDAY"
+
+# use of underscore
+_ = 999
+print(_)
+
+# assigning values to the variable
+
+x = 100
+y = 200
+z = 300
+
+
+print(x)
+print(y)
+print(z)
+
+
+# assigning values to the variable in one line 
+# not recommended
+
+x,y,z = 100 , 200 ,300
+print(x)
+print(y)
+print(z)
+
