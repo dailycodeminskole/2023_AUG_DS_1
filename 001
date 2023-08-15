@@ -1,0 +1,38 @@
+#################################################
+#  05.08.2023 8.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 Intro to  Python
+# 👉 Our first code
+#################################################
+
+# where to write the code 
+'''
+online 
+
+offline
+  > Anaconda Distribution | Jupyter Notebook
+'''
+
+
+print('Hello world')
+print('Good Morning')
+
+print("I will learn python v3 in 5 weeks !!!")
+print("100")
+print("100+100") # as it is 
+print("100-100") # as it is 
+
+# print fun behaves as a calc
+print(100+100)
+print(100-100)
+print(100/100)
+print(100*100)
+print(100%100)
+
+
+# print('It's a nice day') # this is commented
+print("It's a nice day")
+
+# print("Gandhiji said ,"you must speak truth"")
+print('''Gandhiji said ,"you must speak truth"''')
