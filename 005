@@ -1,0 +1,54 @@
+#################################################
+#  10.08.2023 8.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 Strings  in Python
+# 👉 Indexing and Slicing
+#################################################
+# indexing	0	1	2	3	4	5
+# STRING 	  P	Y	T	H	O	N
+skill = "PYTHON"
+
+print(skill)
+print(skill[4])
+
+
+# Slicing
+# var_name[start:end]
+# end indexing is not used
+
+mailid = "naveen.coep@gmail.com"
+print(mailid)
+
+print(mailid[12:16]) #n-1
+print(mailid[12:17]) #n-1 gmail
+
+print(mailid[0:6]) #naveen
+print(mailid[0:5]) #naveen , N-1 IS used
+print(mailid[:6]) # default start position is ZERO
+
+
+print(mailid[12:]) #till last character by default
+print(mailid[:]) # complete string will get printed
+
+
+
+
+# Slicing with Step values
+# var_name[start:end:step/jump/skip]
+
+
+mailid = "naveen.coep@gmail.com"
+
+print(mailid[0:11])
+print(mailid[0:11:1])
+print(mailid[0:11:2])
+print(mailid[::2])
+
+
+# Neg indexing
+
+# Neg Indexing	-6	-5	-4	-3	-2	-1
+# indexing	0	1	2	3	4	5
+# STRING	P	Y	T	H	O	N
+# counting	1	2	3	4	5	6
