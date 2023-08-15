@@ -1,0 +1,46 @@
+#################################################
+#  14.08.2023 8.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 String Methods
+#################################################
+
+# Mehtods/functions ??
+# pre written code 
+
+print("Good morning!!!")
+
+name = "UmAkANT"
+name_proper = "Umakant"
+
+#  methods for editing the string 
+
+print(name.upper())
+print(name.lower())
+print(name.title())
+
+email = "MINSKOLEOPC@GMAIL.COM"
+print(email.lower())
+
+# strip will remove only the leading and trailing spaces
+#  not the one in between
+
+place = "                Pune"
+print(place)
+print(place.strip())
+
+s = "            Pune is                   Good!!!"
+print(s.strip())
+
+# boolean o/p
+#  for validation abd cheking the input
+
+password = 'pass 123'
+print(password.isalnum()) #only alphabets and numbers
+
+mobilenum = "a123456789"
+print(mobilenum.isdigit())
+
+
+name = "Prakash007"
+print(name.isalpha()) #all the char should be alphabets only
