@@ -1,0 +1,59 @@
+#################################################
+#  08.08.2023 8.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 Strings  in Python
+#################################################
+
+print('Good Morning !!!')
+
+# for multi-line printing we have to use triple quotes
+print('''To
+The Manager
+IDIFC Bank
+Chembur-4''')
+
+
+print(100+100)
+print('100+100')
+
+# values will be repeated
+print('Amit'*2)
+print('Amit'*3)
+# print('Amit'/3) # not supported
+
+x = 100
+y = 100
+z = 100
+
+print(x)
+print(id(x))
+print(y)
+print(id(y))
+print(z)
+print(id(z))
+
+
+# Strings
+
+name = "Rohit"
+print(name)
+print(type(name)) #str
+
+x = 101
+print(type(x)) #int
+
+a = 3.1417
+print(type(a))# float
+
+
+# HW 
+
+a = 'One'
+print(type(a))
+
+b = " "
+
+c = "101"
+
+d = '3.14'
