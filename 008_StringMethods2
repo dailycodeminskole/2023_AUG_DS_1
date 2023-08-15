@@ -1,0 +1,87 @@
+#################################################
+#  15.08.2023 8.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 String Methods
+#################################################
+
+x = 100
+x = "Rahul"
+type(x)
+print(type(x))
+
+
+song = '''
+Jana Gana Mana
+Adhinayaka Jay He
+Bharat Bhagya Vidhata
+Panjab Sindhu Gujarat Maratha
+Dravida Utkala Banga
+Vindhya Himachal Yamuna Ganga
+Uchchala Jaladhi Taranga
+Tava Subha Name Jaage
+Tave Subha Aashish Mange
+Gaahe Tava Jay Gaatha
+Jana Gana Mangal Daayak Jay He
+Bharat Bhagya Vidhata
+Jay he Jay he Jay he
+Jay Jay Jay Jay He
+
+'''
+
+print(type(song))
+
+
+# count()
+
+print(song.count('Jay')) #ten times
+print(song.count("Bharat"))
+print(song.count(" "))
+# print(song.count( ))
+
+
+
+# find()
+#  index posn of the 1st ocurence only
+# -1 for the non existence characters
+
+print(song.find("Bharat"))
+print(song.find("Jay"))
+print(song.find("India")) #-1
+print(song.find("@")) #-1
+print(song.find("$$$")) #-1
+
+
+# index()
+
+
+print(song.index("Bharat"))
+print(song.index("Jay"))
+# print(song.index("India")) #ValueError
+# print(song.index("$$$")) #-1
+
+
+
+# replace()
+
+
+print(song.replace('Bharat','India'))
+print(song.replace('Jay','Jai'))
+
+
+
+# split()
+
+email = "minskoleopc@gmail.com"
+
+print(email.split('@'))
+
+mob_num = "+91-222222222"
+print(mob_num.split("-"))
+
+
+mob_num = "+91-2222-22222"
+print(mob_num.split("-"))
+
+
+print(song.split(" "))
