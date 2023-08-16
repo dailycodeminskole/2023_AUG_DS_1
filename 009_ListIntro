@@ -1,0 +1,76 @@
+#################################################
+#  16.08.2023 8.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 LISTS in Python
+#################################################
+
+
+
+# split()
+
+name  = "Amar Shinde"
+print(name.split(' '))
+print(type(name.split(' '))) #list
+
+#  input was string > o/p is a list
+
+s1 = "abc$def$ghi$"
+
+print(s1.split('$'))
+
+
+
+
+# LIST
+# list is a collection of heterogenous items
+#  it supportys mixed data types
+#  list supported nested lists
+
+# List creation
+
+fruits_list = ['apple','banana','grapes']
+print(fruits_list)
+print(type(fruits_list))
+
+list_num = [10,20,30,40,50]
+print(list_num)
+print(type(list_num))
+
+
+list_items1 = ['potato','onion','eggs',10,20,30,40]
+print(list_items1)
+print(type(list_items1))
+
+
+
+list_items2 = ['potato','onion','eggs','10','20','30','40']
+print(list_items2)
+print(type(list_items2))
+
+
+
+list1 = ['Ramesh',24,'Pune',['Phy','chem','IT']]
+print(list1)
+print(type(list1))
+
+
+
+
+z = [" "] #list with 'space as one elemnet'
+print(z)
+print(type(z))
+print(len(z))
+
+
+
+z = [""] #list with one element 
+print(z)
+print(type(z))
+print(len(z))
+
+
+z = []#empty list
+print(z)
+print(type(z))
+print(len(z))
