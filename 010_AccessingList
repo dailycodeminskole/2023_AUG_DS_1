@@ -1,0 +1,112 @@
+#################################################
+#  22.08.2023 8.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 LISTS in Python
+#################################################
+#  data types 
+'''
+
+numbers
+string 
+  indexing
+  Slicing
+  jump values
+  
+  neg indxeing 
+
+list
+  indexing
+  Slicing
+  jump values
+  
+  neg indxeing
+
+'''
+
+# valid list
+list_num =  [12,20,30,40]
+list_items =  [12,20,30,40,'Rahul','Manish']
+
+
+z = []
+z = [""]
+z = [" "]
+z = ["P"]
+
+
+
+
+# Accessing a list
+#                   0       1       2      3        4
+#                  -5       -4      -3     -2      -1
+students_name = ['Amar','Akash','Anuj','Amit','Aniket']
+
+# using pos indexing
+print(students_name[0])
+print(students_name[3])
+
+# using neg indexing
+
+print(students_name[-2])
+print(students_name[3])
+
+
+
+
+
+
+
+# Slicing a list
+# var_name[start:end] n-1 value will be considered
+
+
+#                   0       1       2      3        4
+#                  -5       -4      -3     -2      -1
+students_name = ['Amar','Akash','Anuj','Amit','Aniket']
+
+print(students_name[0:1]) # Amar , n-1 value is used
+print(students_name[0:2]) # Amar ,Akash
+print(students_name[0:3]) # Amar ,Akash, Anuj
+print(students_name[:3]) # default start index will be zero
+
+
+# with step value
+# var_name[start:end:skip] n-1 value will be considered
+
+print(students_name[0:5:1])
+print(students_name[0:5:2]) #alternate items in the list
+print(students_name[::2]) #default start and end values will be considered
+
+
+
+# use of neg indexing
+# to get the last element
+
+print(students_name[-1])
+
+# list reversal
+print(students_name[::-1])
+
+
+#  accessing a nested list
+
+#             0      1   2    3[  0       1      2]
+list_s1 = ['Ramesh',24,'Pune',['Python',"JS",'Excel']]
+print(list_s1)
+print(list_s1[3])
+# print(list_s1[4]) #IndexError
+print(list_s1[3][0])
+print(list_s1[3][2])
+
+
+
+
+
+
+
+
+
+
+
+
